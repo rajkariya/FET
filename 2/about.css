@@ -1,0 +1,141 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 600px;
+    position: top;
+    padding: 10px;
+    height: 40px;
+
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    color: whitesmoke;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 200;
+    
+}
+
+a:hover{  
+    color: black;
+}
+li{
+    display: inline-block;
+   
+}
+body{
+  background-image: linear-gradient(to left, #bdc3c7 , #2c3e50);
+}
+.meetraj{
+    width: 450px;
+    height: 350px;
+    display: inline-block;
+    top: -50px;
+    left: -25px;
+    position: relative;
+    border:  3px ridge black;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.meetraj h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+}
+#about{
+    /* text-align: justify;
+     */
+     left: 700px;
+    position: relative;
+    /* left: 250px; */
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.image{
+    margin: 15px 0 0 280px;
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+
+    
+}
+.meetraj p {
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+nav a:hover{
+    color:black;
+	background: rgb(119, 136, 153) ;
+	border-radius: 5px ;
+	padding: 4px;
+	box-shadow: 2px 2px black;
+}
+
+p.name{
+    display: inline-block;
+}
+
+.info{
+    background:rgb(0, 0, 0,0.5);
+    /* opacity: 0.3; */
+    color: white;
+    font-size: 20px;
+    bottom: 0;
+    position: relative ;
+    top: 19px;
+}
+.copy{
+    text-align: center;
+    font-size: 20px;
+}
+.name{
+    text-align: right;
+    margin-left: 1050px;
+    margin-top: 10px;
+    top: 25px;
+    position: relative;
+    
+}
+img{
+    border-radius: 5px;
+}
+.social{
+    margin-left: 1050px;
+    /* margin-top: 50px; */
+}
+@media screen  and (max-width:500px){
+    .image{margin: 10px; margin-left: 10px; width: 200px;height: 300px;
+  }
+    img{width: 330px;height: 450px; position: relative; display: block; margin: 10px 40px 10px 40px; top: -100px;}
+    .info{
+    width: 500px;
+    height: 350px;
+    top: 100px;
+    margin: 0px;
+    display: block;
+    padding: 10px;
+
+    }
+    .meetraj{width: 300px;height: 400px; display: block; top: 80px; left: 49px;
+     }
+     .name{text-align: left; margin-left: 20px;}
+     .copy{ top: -100px; left: -25px; position: relative; display: block; }
+      body{overflow: hidden ;}
+     .social{margin-left: 20px;} 
+     .linkedin img{ width: 40px; height: 40px; top: -133px; left: 350px; }
+     .insta img { width: 40px; height: 40px; top: -45px; left: 295px; }
+}

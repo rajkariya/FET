@@ -1,0 +1,136 @@
+body{
+    /* background: url('background5.jpg'); */
+    /* background-image: linear-gradient(to left,#09203f , #537895); */
+    background-image: linear-gradient(to right,#29323c , #485563);
+    overflow-x: hidden;
+
+}
+
+
+li{
+    display: inline-block;
+   
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    color: whitesmoke;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 200;
+    
+}
+
+a:hover{
+    /* color:rgb(112, 53, 53); */
+    
+    /* color: lightskyblue; */
+    color: black;
+
+}
+.container1{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    padding: 5px;
+    border: 5px groove oldlace;
+    border-radius: 40px;
+    text-align: center;
+    background-color: lightslategrey;
+    display: inline-block;
+}
+.hindi{
+    margin-top: 20px;
+    color: navy;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container2{
+    height: 300px;
+    width: 300px;
+    margin-left: 170px;
+    padding: 5px;
+    border: 5px groove oldlace;
+    text-align: center;
+    border-radius: 40px;
+    background-color:lightslategrey;
+    display: inline-block;
+}
+.container3{
+    height: 300px;
+    width: 300px;
+    margin-left: 170px;
+    padding: 5px;
+    border: 5px groove oldlace;
+    text-align: center;
+    border-radius: 40px;
+    background-color: lightslategrey;
+
+    display: inline-block;
+}
+
+.container4{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    margin-left: 280px;
+    padding: 5px;
+    border: 5px groove oldlace;
+    border-radius: 40px;
+    text-align: center;
+    background-color:lightslategrey;
+    display: inline-block;
+}
+
+.container5{
+    height: 300px;
+    width: 300px;
+    margin: 5px 5px 5px 180px;
+    /* margin-left: 180px; */
+    padding: 5px;
+    border: 5px groove oldlace;
+    text-align: center;
+    border-radius: 40px;
+    background-color: lightslategrey;
+    display: inline-block;
+    
+}
+.two{
+    display: inline-block;
+    margin: 15px;
+    
+}
+.three{
+    display: inline-block;
+}
+nav{
+    width: 100%;
+    position: top;
+    margin-top: 5px;
+    padding: 10px;
+    height: 40px;
+
+}
+@media screen and (max-width:500px){
+    .one{display: block;}
+    .two{display: block; margin: 0px;}
+    .container1{display: block; float: left;  margin: 10px;}
+    .container2{display: block; float: left; margin: 10px;  }
+    .container3{display: block; float: left; margin: 10px;}
+    .container4{display: block; float: left;  margin: 10px;}
+    .container5{display: block; float: left; margin: 10px; }
+    .nav1{font-size: 1px;}
+
+
+}
+img{border-radius: 50%;}
+nav a:hover{
+    color:black;
+	background: rgb(119, 136, 153) ;
+	border-radius: 5px ;
+	padding: 4px;
+	box-shadow: 2px 2px black;
+
+
+}

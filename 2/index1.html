@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC LAB- LISTEN FREE MUSIC HERE </title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    
+    <nav>
+        <ul class="header">
+     
+            <li>
+                <a href="index.html"> HOME</a>
+            </li>
+            <li>
+                <a href="albums.html" target="blank"> ALBUMS</a>
+            </li>
+            <li>
+                <a href="about.html" target="blank"> ABOUT</a>
+            </li>
+
+        </ul>
+    </nav>
+    <h1 id="text">
+       
+    </h1>
+    <script type="text/javascript">
+        var i=0,text,j=0,text2;
+        text = "MUSIC LAB";
+        text2 = "Music is a vital part of different moments of human life. It spreads happiness and joy in a person's life. Music is the soul of life and gives immense peace to us. In the words of William Shakespeare, If music is the food of love, play on, Give me excess of it; that surfeiting, The appetite may sicken, and so die. Thus, Music helps us in connecting with our souls or real self.";
+
+        function typing(){
+            if(i<text.length){
+                document.getElementById("text").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typing,150);
+            }
+        }
+        typing();
+        
+    </script>
+    <p class="para">
+        Music is a vital part of different moments of human life. It spreads happiness and joy in a person’s life. Music is the soul of life and gives immense peace to us. In the words of William Shakespeare, “If music is the food of love, play on, Give me excess of it; that surfeiting, The appetite may sicken, and so die.” Thus, Music helps us in connecting with our souls or real self.
+    </p>
+    <p class=copy>
+        ALL RIGHTS ARE RESERVED &copy;
+    </p>
+        
+    
+</body>
+
+</html>
